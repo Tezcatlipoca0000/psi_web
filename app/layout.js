@@ -18,16 +18,20 @@ export default function RootLayout({ children }) {
               Psi Benjamín González
             </h1>
             <nav className="w-3/4">
+              </*>
               <ul className="flex justify-evenly">
                 <li>Inicio</li>
                 <li>Psicometría</li>
                 <li>Agenda</li>
                 <li>Contacto</li>
               </ul>
+              <*/>
             </nav>
           </div>
         </header>
-        <main>{children}</main>
+        <main>
+          {children}
+        </main>
       </body>
     </html>
   );
