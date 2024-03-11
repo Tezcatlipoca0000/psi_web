@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 90, 102, 80;  /* Lighter, desaturated green text */
+  --background-start-rgb: 170, 187, 162;  /* Muted light olive green */
+  --background-end-rgb: 120, 138, 115;  /* Muted darker olive green */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,13 +17,13 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  /*color: rgb(var(--foreground-rgb));*/
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to top,  /* Changed from to bottom */
+    transparent,
+    rgb(var(--background-end-rgb))
+  )
+  rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
