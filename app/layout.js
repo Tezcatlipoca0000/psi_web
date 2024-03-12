@@ -13,8 +13,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={`${inter.className} tracking-wider text-gray-700 w-screen min-h-screen`}>
-        <header className="mt-12">
+      <body className={`${inter.className} tracking-wider text-gray-100 w-screen h-screen`}>
+        <header className="py-10 bg-lime-900 text-gray-100 border-4 border-lime-900 border-b-gray-100">
           <div className="flex items-center justify-evenly">
             <Image
               src={headshot}
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
               className="rounded-full overflow-hidden"
             />
             <div className="">
-              <h1 className="text-4xl font-bold text-gray-100">
+              <h1 className="text-4xl font-bold">
                 Psi Benjamín González
               </h1>
               <h2>
@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
             </div>
           </div>
         </header>
-        <main>
+        <main className="bg-gradient-to-b from-lime-800 to-lime-100 h-full">
           {children}
         </main>
       </body>
