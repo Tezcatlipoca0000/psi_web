@@ -12,34 +12,34 @@ export default function Home() {
             <div id="right-brace"></div>
           </div>
         </div>
-        <table class="w-1/2 mt-4">
+        <table className="w-1/2 mt-4">
           <thead>
             <tr>
-              <th colspan="2" class="text-center text-2xl font-medium">
+              <th colspan="2" className="text-center text-2xl font-medium">
                 Especializado en:
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="text-center text-xl font-normal mb-4">Adolescentes</td>
-              <td class="text-center text-xl font-normal mb-4">Adultos</td>
+              <td className="text-center text-xl font-normal mb-4">Motivación</td>
+              <td className="text-center text-xl font-normal mb-4">Emprendedurismo</td>
             </tr>
             <tr>
-              <td class="text-center text-xl font-normal mb-4">Parejas</td>
-              <td class="text-center text-xl font-normal mb-4">Depresión</td>
+              <td className="text-center text-xl font-normal mb-4">Desempeño</td>
+              <td className="text-center text-xl font-normal mb-4">Bloqueos</td>
             </tr>
             <tr>
-              <td class="text-center text-xl font-normal mb-4">Estres</td>
-              <td class="text-center text-xl font-normal mb-4">Ansiedad</td>
+              <td className="text-center text-xl font-normal mb-4">Adolescentes</td>
+              <td className="text-center text-xl font-normal mb-4">Adultos</td>
             </tr>
             <tr>
-              <td class="text-center text-xl font-normal mb-4">Soledad</td>
-              <td class="text-center text-xl font-normal mb-4">Bloqueos</td>
+              <td className="text-center text-xl font-normal mb-4">Parejas</td>
+              <td className="text-center text-xl font-normal mb-4">Familiar</td>
             </tr>
             <tr>
-              <td class="text-center text-xl font-normal mb-4">Emprendedurismo</td>
-              <td class="text-center text-xl font-normal mb-4">Desempeño</td>
+              <td className="text-center text-xl font-normal mb-4"></td>
+              <td className="text-center text-xl font-normal mb-4"></td>
             </tr>
           </tbody>
         </table>
@@ -49,6 +49,9 @@ export default function Home() {
         <h1 className="text-4xl font-bold">
           Contacto:
         </h1>
+        <h2>
+          ¡Alcanza tu máximo potencial! Haz tu cita el día de hoy.
+        </h2>
         <ul>
           <li>
             Correo: psibenjamingzz@gmail.com
