@@ -27,15 +27,15 @@ export default function Home() {
             </tr>
             <tr>
               <td className="text-center text-xl font-normal mb-4">Desempeño</td>
+              <td className="text-center text-xl font-normal mb-4">Rendimiento</td>
+            </tr>
+            <tr>
               <td className="text-center text-xl font-normal mb-4">Bloqueos</td>
-            </tr>
-            <tr>
               <td className="text-center text-xl font-normal mb-4">Adolescentes</td>
-              <td className="text-center text-xl font-normal mb-4">Adultos</td>
             </tr>
             <tr>
+              <td className="text-center text-xl font-normal mb-4">Adultos</td>
               <td className="text-center text-xl font-normal mb-4">Parejas</td>
-              <td className="text-center text-xl font-normal mb-4">Familiar</td>
             </tr>
             <tr>
               <td className="text-center text-xl font-normal mb-4"></td>
