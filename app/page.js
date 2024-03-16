@@ -52,9 +52,9 @@ export default function Home() {
           </ul>
         </section>
       
-        <section className="flex flex-col w-1/3 py-12">
+        <section className="flex flex-col px-2 w-full md:w-[50%] py-12">
           <h2 className="text-2xl font-medium text-center">
-            ¡Alcanza tu máximo potencial! <br />Haz tu cita el día de hoy.
+            ¡Alcanza tu máximo potencial!
           </h2>
           <table className="w-full table-auto mt-4">
             <tbody>
