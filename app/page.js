@@ -1,68 +1,85 @@
+import Image from "next/image";
+import psi from "../public/psi.svg";
+
 
 export default function Home() {
   return (
     <>
       <div className="flex flex-col items-center w-full pt-12">
-        <div id="parent-title">
-          <h1 id="title" className="text-center text-4xl font-bold">
-            Psicología clínica con orientación psicoanalítica
-          </h1>
-          <div id="brace">
-            <div id="left-brace"></div>
-            <div id="right-brace"></div>
-          </div>
-        </div>
-        <table className="w-1/2 mt-4">
-          <thead>
-            <tr>
-              <th colspan="2" className="text-center text-2xl font-medium">
-                Especializado en:
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td className="text-center text-xl font-normal mb-4">Motivación</td>
-              <td className="text-center text-xl font-normal mb-4">Emprendedurismo</td>
-            </tr>
-            <tr>
-              <td className="text-center text-xl font-normal mb-4">Desempeño</td>
-              <td className="text-center text-xl font-normal mb-4">Rendimiento</td>
-            </tr>
-            <tr>
-              <td className="text-center text-xl font-normal mb-4">Bloqueos</td>
-              <td className="text-center text-xl font-normal mb-4">Adolescentes</td>
-            </tr>
-            <tr>
-              <td className="text-center text-xl font-normal mb-4">Adultos</td>
-              <td className="text-center text-xl font-normal mb-4">Parejas</td>
-            </tr>
-            <tr>
-              <td className="text-center text-xl font-normal mb-4"></td>
-              <td className="text-center text-xl font-normal mb-4"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div className="flex flex-col pl-8 pt-12">
-        <h1 className="text-4xl font-bold">
-          Contacto:
+        
+        <h1 id="title" className="text-center text-4xl font-bold">
+          Psicología Clínica con Orientación Psicoanalítica
         </h1>
-        <h2>
-          ¡Alcanza tu máximo potencial! Haz tu cita el día de hoy.
-        </h2>
-        <ul>
-          <li>
-            Correo: psibenjamingzz@gmail.com
-          </li>
-          <li>
-            Tel & What's App: 81 1013 5362
-          </li>
-          <li>
-            Facebook: 
-          </li>
-        </ul>
+
+        <Image
+          src={psi}
+          alt="Imagen de una letra griega Psi"
+          className="mt-1.5 mb-4"
+        />
+        
+        <section>
+          <h2 className="text-center text-2xl font-medium mb-4">
+            Especializado en:
+          </h2>
+          <ul id="specialties">
+            <li className="text-center text-xl font-normal mb-4">
+              Motivación
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Emprendimiento
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Rendimiento
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Desempeño
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Desgaste
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Estrés 
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Adolescentes
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Adultos
+            </li>
+            <li className="text-center text-xl font-normal mb-4">
+              Parejas
+            </li>
+          </ul>
+        </section>
+      
+        <section className="flex flex-col w-1/3 py-12">
+          <h2 className="text-2xl font-medium text-center">
+            ¡Alcanza tu máximo potencial! <br />Haz tu cita el día de hoy.
+          </h2>
+          <table className="w-full table-auto mt-4">
+            <tbody>
+              <tr>
+                <td className="text-left">
+                  Correo:
+                </td>
+                <td  className="text-right">
+                  <a class="ml-2 underline text-blue-700 transition ease-in-out hover:text-amber-400 duration-300" href="mailto:psibenjamingzz@gmail.com">
+                    psibenjamingzz@gmail.com
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td  className="text-left">
+                  Tel. & WhatsApp:
+                </td>
+                <td  className="text-right">
+                  81-1013-5362
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
       </div>
     </>
   );
