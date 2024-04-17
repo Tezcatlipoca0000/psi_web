@@ -16,46 +16,12 @@ export default function Home() {
           alt="Imagen de una letra griega Psi"
           className="mt-1.5 mb-4"
         />
-        
-        <section>
-          <h2 className="text-center text-2xl font-medium mb-4">
-            Especializado en:
-          </h2>
-          <ul id="specialties">
-            <li className="text-center text-xl font-normal mb-4">
-              Motivación
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Emprendimiento
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Rendimiento
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Desempeño
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Desgaste
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Estrés 
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Adolescentes
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Adultos
-            </li>
-            <li className="text-center text-xl font-normal mb-4">
-              Parejas
-            </li>
-          </ul>
-        </section>
+
+        <h2 className="text-2xl font-medium text-center">
+          ¡Alcanza tu máximo potencial!
+        </h2>
       
-        <section className="flex flex-col px-2 w-full md:w-[50%] py-12">
-          <h2 className="text-2xl font-medium text-center">
-            ¡Alcanza tu máximo potencial!
-          </h2>
+        <section className="flex flex-col px-2 w-full md:w-[50%] lg:w-[35%] py-12">
           <table className="w-full table-auto mt-4">
             <tbody>
               <tr>
@@ -63,8 +29,18 @@ export default function Home() {
                   Correo:
                 </td>
                 <td  className="text-right">
-                  <a class="ml-2 underline text-blue-700 transition ease-in-out hover:text-amber-400 duration-300" href="mailto:psibenjamingzz@gmail.com">
+                  <a className="ml-2 underline text-blue-700 transition ease-in-out hover:text-amber-400 duration-300" href="mailto:psibenjamingzz@gmail.com" target="_blank">
                     psibenjamingzz@gmail.com
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Facebook:
+                </td>
+                <td className="text-right">
+                  <a className="ml-2 underline text-blue-700 transition ease-in-out hover:text-amber-400 duration-300" href="https://www.facebook.com/profile.php?id=61551830980840&locale=es_LA" target="_blank">
+                    Benjamín González
                   </a>
                 </td>
               </tr>

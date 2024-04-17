@@ -60,7 +60,8 @@ export default function RootLayout({ children }) {
         </main>
 
         <footer className="h-14 p-4 bg-lime-900 border-4 border-lime-900 border-t-gray-100">
-          Sitio Creado por Lic. Benjamín González
+          <span>Sitio Creado por Lic. Benjamín González</span>
+          <span className="float-right text-xs">V-1.0</span>
         </footer>
 
       </body>
