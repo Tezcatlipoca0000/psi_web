@@ -2,5 +2,16 @@
     "name": "Psi Benjamín González",
     "short_name": "Psi Benjamín González",
     "description": "Lic. Benjamín González Personal Website",
-    "start_url": "/"
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#9DDF73",
+    "theme_color": "#FFD54F",
+    "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "any",
+          "type": "image/svg"
+        }
+      ],
+      "categories": ["psicología", "terapia", "psicoanálisis"]
 }
