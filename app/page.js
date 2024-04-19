@@ -1,27 +1,71 @@
 import Image from "next/image";
 import psi from "../public/psi.svg";
+import bin from "../public/binary.svg";
 
 
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col items-center w-full pt-12">
-        
-        <h1 id="title" className="text-center text-4xl font-bold">
-          Psicología Clínica con Orientación Psicoanalítica
-        </h1>
+      <div className="flex flex-col items-center w-full pt2">
+        <section id="specialties" className="py-12 px-2 w-full flex justify-evenly">
+          <div className="flex flex-col items-center">
+            <Image
+              src={psi}
+              alt="Imagen de una letra griega Psi"
+            />
 
-        <Image
-          src={psi}
-          alt="Imagen de una letra griega Psi"
-          className="mt-1.5 mb-4"
-        />
+            <h2 className="text-2xl font-medium text-center">
+              Servicios De Psicoterapia En Línea:
+            </h2>
 
-        <h2 className="text-2xl font-medium text-center">
-          ¡Alcanza tu máximo potencial!
-        </h2>
+            <ul>
+              <li>
+                Primera Entrevista Gratuita 
+              </li>
+              <li>
+                Consultoría
+              </li>
+              <li>
+                Consejería
+              </li>
+              <li>
+                Psicoterapia con Enfoque Psicoanalítico
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <Image
+              src={bin}
+              alt="Imagen de un código binario"
+            />
+
+            <h2 className="text-2xl font-medium text-center">
+              Servicios De Informática:
+            </h2>
+
+            <ul>
+              <li>
+                Análisis de Datos
+              </li>
+              <li>
+                Visualización de Datos
+              </li>
+              <li>
+                Administración de Bases de Datos
+              </li>
+              <li>
+                Diseño y Desarrollo en General
+              </li>
+            </ul>
+          </div>
+        </section>
       
         <section className="flex flex-col px-2 w-full md:w-[50%] lg:w-[35%] py-12">
+          <h2 className="text-2xl font-medium text-center">
+            Contacto:
+          </h2>
+
           <table className="w-full table-auto mt-4">
             <tbody>
               <tr>
@@ -55,7 +99,6 @@ export default function Home() {
             </tbody>
           </table>
         </section>
-
       </div>
     </>
   );

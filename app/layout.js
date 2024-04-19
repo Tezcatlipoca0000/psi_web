@@ -9,7 +9,7 @@ export const metadata = {
   generator: "Next.js",
   applicationName: "Psi Benjamín González",
   referrer: "origin-when-cross-origin",
-  keywords: ["Psicología", "Benjamín González", "Psicoanálisis", "Terapia", "Motivación", "Emprendimiento"],
+  keywords: ["Psicología", "Benjamín González", "Psicoanálisis", "En linea", "Terapia", "Motivación", "Emprendimiento", "Iformática", "Psicoinformática", "Programación"],
   authors: [{name: "Benjamín González"}],
   creator: "Benjamín González",
   publisher: "Benjamín González",
@@ -20,7 +20,7 @@ export const metadata = {
     date: true,
   },
   title: "Psi Benjamín González",
-  description: "Psicología Clínica con Orientación Psicoanalítica; Motivación, Desempeño, Emprendimiento, Desgaste, Estrés",
+  description: "Sitio de Benjamín González; psicoterapia, psicoinformática y programación",
   openGraph: {
     title: "Psi Benjamín González",
     description: "Psicología Clínica con Orientación Psicoanalítica; Motivación, Desempeño, Emprendimiento, Desgaste, Estrés",
