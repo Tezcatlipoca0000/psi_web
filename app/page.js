@@ -41,7 +41,7 @@ export default function Home() {
             />
 
             <h2 className="text-2xl font-medium text-center">
-              Servicios De Informática:
+              Servicios De Psicoinformática:
             </h2>
 
             <ul>

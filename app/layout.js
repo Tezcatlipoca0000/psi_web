@@ -20,10 +20,10 @@ export const metadata = {
     date: true,
   },
   title: "Psi Benjamín González",
-  description: "Sitio de Benjamín González; psicoterapia, psicoinformática y programación",
+  description: "Benjamín González; psicoterapia, psicoinformática y programación",
   openGraph: {
     title: "Psi Benjamín González",
-    description: "Psicología Clínica con Orientación Psicoanalítica; Motivación, Desempeño, Emprendimiento, Desgaste, Estrés",
+    description: "Benjamín González; psicoterapia, psicoinformática y programación",
     url: "pending url",
     siteName: "Psi Benjamín González",
     locale: "es_ES",

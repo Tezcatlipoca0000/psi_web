@@ -1,7 +1,7 @@
 {
     "name": "Psi Benjamín González",
     "short_name": "Psi Benjamín González",
-    "description": "Lic. Benjamín González Personal Website",
+    "description": "Benjamín González; psicoterapia, psicoinformática y programación",
     "start_url": "/",
     "display": "browser",
     "background_color": "#9DDF73",
@@ -13,5 +13,5 @@
           "type": "image/svg"
         }
       ],
-      "categories": ["psicología", "terapia", "psicoanálisis"]
+      "categories": ["psicología", "terapia en linea", "psicoanálisis", "psicoinformática", "programación", "informática"]
 }
