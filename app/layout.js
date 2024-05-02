@@ -13,6 +13,7 @@ export const metadata = {
   authors: [{name: "Benjamín González"}],
   creator: "Benjamín González",
   publisher: "Benjamín González",
+  metadataBase: new URL("http://localhost:3000"),
   formatDetection: {
     email: true,
     address: true,

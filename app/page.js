@@ -1,7 +1,5 @@
 import Image from "next/image";
 import psi from "../public/psi.svg";
-import bin from "../public/binary.svg";
-
 
 export default function Home() {
   return (
@@ -14,48 +12,22 @@ export default function Home() {
               alt="Imagen de una letra griega Psi"
             />
 
-            <h2 className="text-2xl font-medium text-center">
+            <h2 className="text-2xl font-medium text-center mt-8">
               Servicios De Psicoterapia En Línea:
             </h2>
 
             <ul>
-              <li>
+              <li className="text-xl font-normal mt-4">
                 Primera Entrevista Gratuita 
               </li>
-              <li>
+              <li className="text-xl font-normal mt-4">
                 Consultoría
               </li>
-              <li>
+              <li className="text-xl font-normal mt-4">
                 Consejería
               </li>
-              <li>
+              <li className="text-xl font-normal mt-4">
                 Psicoterapia con Enfoque Psicoanalítico
-              </li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col items-center">
-            <Image
-              src={bin}
-              alt="Imagen de un código binario"
-            />
-
-            <h2 className="text-2xl font-medium text-center">
-              Servicios De Psicoinformática:
-            </h2>
-
-            <ul>
-              <li>
-                Análisis de Datos
-              </li>
-              <li>
-                Visualización de Datos
-              </li>
-              <li>
-                Administración de Bases de Datos
-              </li>
-              <li>
-                Diseño y Desarrollo en General
               </li>
             </ul>
           </div>
