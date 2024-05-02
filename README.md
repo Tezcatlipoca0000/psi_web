@@ -5,7 +5,7 @@
 
 **_A simple website with contact information_** 
 
-![screenshot of version 1.0](https://imgur.com/a/7Zk8HIT)
+![screenshot of version 1.0](https://i.imgur.com/YmihxNR.png)
 
 
 ### About
