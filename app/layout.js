@@ -9,7 +9,7 @@ export const metadata = {
   generator: "Next.js",
   applicationName: "Psi Benjamín González",
   referrer: "origin-when-cross-origin",
-  keywords: ["Psicología", "Benjamín González", "Psicoanálisis", "En linea", "Terapia", "Motivación", "Emprendimiento", "Iformática", "Psicoinformática", "Programación"],
+  keywords: ["Psicología en linea", "Benjamín González", "Psicoanálisis en linea", "", "Terapia en linea", "Consejería", "Consultoría"],
   authors: [{name: "Benjamín González"}],
   creator: "Benjamín González",
   publisher: "Benjamín González",
@@ -21,10 +21,10 @@ export const metadata = {
     date: true,
   },
   title: "Psi Benjamín González",
-  description: "Benjamín González; psicoterapia, psicoinformática y programación",
+  description: "Lic. Benjamín González; psicoterapia en línea con enfoque psicoanalítico.",
   openGraph: {
     title: "Psi Benjamín González",
-    description: "Benjamín González; psicoterapia, psicoinformática y programación",
+    description: "Lic. Benjamín González; psicoterapia en línea con enfoque psicoanalítico.",
     url: "pending url",
     siteName: "Psi Benjamín González",
     locale: "es_ES",
@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
           <div className="flex items-center p-2 md:justify-evenly">
             <Image
               src={headshot}
-              alt="Foto del lic. Benjamín González"
+              alt="Foto de lic. Benjamín González"
               className="rounded-full overflow-hidden border-2 border-amber-300"
             />
             <div className="">

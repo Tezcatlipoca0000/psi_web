@@ -1,7 +1,7 @@
 {
     "name": "Psi Benjamín González",
-    "short_name": "Psi Benjamín González",
-    "description": "Página personal de Benjamín González; Psicoterapia y Psicoinformática",
+    "short_name": "Psi_Ben",
+    "description": "Lic. Benjamín González; psicoterapia en línea con enfoque psicoanalítico.",
     "start_url": "/",
     "display": "browser",
     "background_color": "#9DDF73",
@@ -13,7 +13,7 @@
           "type": "image/svg"
         }
       ],
-      "categories": ["psicología", "terapia en linea", "psicoanálisis", "consultoría", "consejería", "psicoinformática"],
+      "categories": ["psicología en línea", "terapia en linea", "psicoanálisis en línea", "consultoría", "consejería", "Benjamín González"],
       "lang": "es",
       "id": "?id=psibenjamingzz"      
 }
