@@ -13,7 +13,7 @@ export const metadata = {
   authors: [{name: "Benjamín González"}],
   creator: "Benjamín González",
   publisher: "Benjamín González",
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL("https://psibenjamingzz.vercel.app/"),
   formatDetection: {
     email: true,
     address: true,
