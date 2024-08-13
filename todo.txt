@@ -5,3 +5,34 @@
 # Ad campaign 
 
 # Psicometría automatizada 
+
+# Web-vitals analytics 
+
+
+**********************************************************************************
+
+
+~~~~ Psicometría automatizada  ~~~~
+- una section nueva en el sitio web (new page)
+- ofrece la aplicación, revisión y devolución de información psicométrica de manera automatizada
+- comenzar con una prueba atractiva (personalidad | depresión)
+- considerando los costos de inversión, quizá no guardar info en DB (al inicio)... quizá guardar info básica hasta que db se sature...
+
+
+~~~~ Random quote machine ~~~~
+- entre el encabezado y el contenido (homepage)
+
+
+~~~~ Change design to include software and data analysis services ~~~~
+- cambiar servicios a ofrecer.
+- 2 columnas: servicios psi y serv programador.
+
+
+~~~~ Ad campaign ~~~~
+- forget the google ads and such idea; you need at least 1,000,000 visits monthly 
+- make silly little informative pages, maybe defining or describig a concept and at the bottom refer to my homepage 
+
+
+~~~~ Web-vitals analytics ~~~~
+- investigate if there are any costs 
+- consider implementing google analytics to measure visits 
