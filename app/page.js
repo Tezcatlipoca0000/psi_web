@@ -1,10 +1,15 @@
 import Image from "next/image";
 import psi from "../public/psi.svg";
+import quotes from "@/app/lib/quotes.json"
 
 export default function Home() {
   return (
     <>
       <div className="flex flex-col items-center w-full pt2">
+      <section id="quotes">
+        {quotes[0].sp}
+      </section>
+
         <section id="specialties" className="py-12 px-2 w-full flex justify-evenly">
           <div className="flex flex-col items-center">
             <Image
