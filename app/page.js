@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <div className="flex flex-col items-center w-full pt2">
-      <section id="quotes">
-        {quotes[randomIdx].sp}
+      <section id="quotes" className="text-3xl text-center pt-12 px-8">
+        {quotes[randomIdx].es}
       </section>
 
         <section id="specialties" className="py-12 px-2 w-full flex justify-evenly">

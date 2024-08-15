@@ -1,48 +1,37 @@
 [
     {
-        "quote": "Education: the path from cocky ignorance to miserable uncertainty.",
-        "sp": "La educación: el camino de la ignorancia arrogante a la incertidumbre miserable.",
+        "en": "Education: the path from cocky ignorance to miserable uncertainty.",
+        "es": "La educación: el camino de la ignorancia arrogante a la incertidumbre miserable.",
         "auth": "Mark Twain"
     },
     {
-        "quote": "",
-        "sp": "La educación consiste principalmente en lo que hemos desaprendido",
-        "auth": "Mark Twain"
+        "en": "If a fish judges itself by its ability to climb a tree; it will live its whole life believing that it is stupid.",
+        "es": "Si un pez se juzga a sí mismo por su habilidad para trepar un árbol, vivirá toda su vida creyendo que es estúpido.",
+        "auth": "Reformulación de una famosa cita que Albert Einstein nunca dijo" 
     },
     {
-        "quote": "If a fish judges itself by its ability to climb a tree; it will live its whole life believing that it is stupid",
-        "auth": "Rephrase of a famous quote that Albert Einstein never said"
-    },
-    {
-        "quote": "We know what we are, but not what we may be.",
-        "auth": "William Shakespeare"
-    },
-    {
-        "quote": "Arise, Awake and Stop not until the goal is reached.",
-        "auth": "Swami Vivekananda"
-    },
-    {
-        "quote": "Pain is inevitable. Suffering is optional.",
+        "en": "Pain is inevitable. Suffering is optional.",
+        "es": "El dolor es inevitable. El sufrimiento es opcional.",
         "auth": "Haruki Murakami"
     },
     { 
-        "quote": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
+        "en": "There is only one thing that makes a dream impossible to achieve: the fear of failure.",
+        "es": "Solo hay una cosa que hace imposible alcanzar un sueño: el miedo al fracaso.",
         "auth": "Paulo Coelho"
     },
     {
-        "quote": "Do not wait until the conditions are perfect to begin. Beginning makes the conditions perfect",
+        "en": "Do not wait until the conditions are perfect to begin. Beginning makes the conditions perfect.",
+        "es": "No esperes a que las condiciones sean perfectas para empezar. Empezar hace que las condiciones sean perfectas.",
         "auth": "Alan Cohen"
     },
     {
-        "quote": "When you know that you're capable of dealing with whatever comes, you have the only security the world has to offer.",
+        "en": "When you know that you're capable of dealing with whatever comes, you have the only security the world has to offer.",
+        "es": "Cuando sabes que eres capaz de enfrentar lo que venga, tienes la única seguridad que el mundo ofrece.",
         "auth": "Harry Browne"
     },
     {
-        "quote": "Do not go gentle into that good night. Rage, rage against the dying of the light.",
-        "auth": "Dylan Thomas"
-    },
-    {
-        "quote": "The only person you are destined to become is the person you decide to be.",
+        "en": "The only person you are destined to become is the person you decide to be.",
+        "es": "La única persona en la que estás destinado a convertirte es la persona que decides ser.",
         "auth": "Ralph Waldo Emerson"
     }
 ]
